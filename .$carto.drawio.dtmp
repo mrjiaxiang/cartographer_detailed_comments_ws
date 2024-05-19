@@ -1,0 +1,1415 @@
+<mxfile host="Electron" modified="2023-12-16T03:54:13.080Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="uIenrFtDCH-LNbZPp_Ut" version="22.0.3" type="device">
+  <diagram name="第 1 页" id="kB9GQf2DcJFC0d1xksPA">
+    <mxGraphModel dx="4267" dy="2631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eDFORQu90avfI0AdCX1T-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-1" target="eDFORQu90avfI0AdCX1T-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-1" target="moiocsShgAmM6kFT7V4P-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Class Node&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="390" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-3" target="eDFORQu90avfI0AdCX1T-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;开始SLAM&lt;br&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;StartTrajectoryWithDefaultTopics&lt;br&gt;使用默认topic开始轨迹&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="140" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;pre class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ValidateTrajectoryOptions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token function&quot;&gt;用于验证轨迹选项中是2D还是3D构建器&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="-140" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eDFORQu90avfI0AdCX1T-3" target="eDFORQu90avfI0AdCX1T-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-8" target="eDFORQu90avfI0AdCX1T-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;pre class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;AddTrajectory添加轨迹配置&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="175" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-10" value="&lt;font style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;pre style=&quot;text-align: left; font-size: 24px;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;9&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;ComputeExpectedSensorIds里面调用ComputeRepeatedTopicNames&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;9&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;根据配置文件, 确定所有需要的topic的名字的集合，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;font-size: 24px; background-color: initial;&quot;&gt;如果只有一个传感器, 那订阅的topic就是topic&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt; 如果是多个传感器, 那订阅的topic就是topic_1,topic_2, 依次类推&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;enum class SensorType {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        RANGE = 0,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        IMU,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        ODOMETRY,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        FIXED_FRAME_POSE,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        LANDMARK,&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        LOCAL_SLAM_RESUL&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; white-space: normal;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;struct SensorId {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        SensorType type;  // 传感器的种类&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        std::string id;   // topic的名字&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="-540" width="870" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eDFORQu90avfI0AdCX1T-12" target="eDFORQu90avfI0AdCX1T-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-12" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;调用map_builder_bridge的AddTrajectory, 添加一个轨迹&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="-100" width="870" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-15" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;添加一个位姿推测器&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;AddExtrapolator(trajectory_id, options);&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="40" width="870" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-17" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;传感器数据采样器&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;AddSensorSamplers(trajectory_id, options);&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="220" width="870" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-20" target="kzg4WtCf1WpvJ3rMo1ig-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-20" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;订阅话题与注册回调函数&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;LaunchSubscribers(trajectory_id, trajectory_id);&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="400" width="870" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-22" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 22px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;创建了一个3s执行一次的定时器,由于oneshot=true, 所以只执行一次&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;检查设置的topic名字是否在ros中存在, 不存在则报错&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;wall_timers_.push_back(node_handle_.createWallTimer(&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;::ros::WallDuration(&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;            &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;kTopicMismatchCheckDelaySec), // kTopicMismatchCheckDelaySec = 3s&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;        &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;amp;Node::MaybeWarnAboutTopicMismatch, this, /*oneshot=*/true));&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="584.5" width="870" height="315.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-24" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 22px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 25px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;将topic名字保存下来,用于之后的新建轨迹时检查topic名字是否重复&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;    &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;for (const auto &amp;amp;sensor_id : expected_sensor_ids) {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;     &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;   subscribed_topics_.insert(sensor_id.id);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;    &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="990" width="870" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-26" target="eDFORQu90avfI0AdCX1T-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-26" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;Class MapBuilderBridge&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; font-size: 20px;&quot;&gt;根据传入的node_options, MapBuilder, 以及tf_buffer 完成三个本地变量的初始化&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3000" y="-140" width="870" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eDFORQu90avfI0AdCX1T-28" target="eDFORQu90avfI0AdCX1T-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eDFORQu90avfI0AdCX1T-28" target="eDFORQu90avfI0AdCX1T-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-28" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;AddTrajectory&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;SLAM开始&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4220" y="-140" width="870" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-30" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;3、保存配置文件&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5360" y="-100" width="870" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-31" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;1、开始一条轨迹，调用map_builder_.AddTrajectoryBuilder,&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;返回新轨迹的id，传入sensor_id，轨迹配置文件，和一个lambda&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;表达式。&lt;/div&gt;&lt;div style=&quot;text-align: left; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 17px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;struct RangeData {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;  Eigen::Vector3f origin;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;  PointCloud returns;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;  PointCloud misses; // local坐标系下的坐标&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;};&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;// LocalSlamData中包含了local slam的一些数据, 包含当前时间, 当前估计的位姿, 以及累计的所有雷达数据&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;    struct LocalSlamData {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;      ::cartographer::common::Time time;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;      ::cartographer::transform::Rigid3d local_pose;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;      ::cartographer::sensor::RangeData range_data_in_local;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;};&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5360" y="-584" width="870" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eDFORQu90avfI0AdCX1T-32" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;pre style=&quot;&quot; class=&quot;prettyprint set-code-show&quot; data-index=&quot;7&quot;&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px; font-size: 27px;&quot;&gt;2、为轨迹添加一个SensorBridge&lt;br&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5360" y="-200" width="870" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eDFORQu90avfI0AdCX1T-28" target="eDFORQu90avfI0AdCX1T-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-6" target="kzg4WtCf1WpvJ3rMo1ig-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;调用SensorBridge的传感器处理函数进行数据处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3010" y="412.5" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-8" target="kzg4WtCf1WpvJ3rMo1ig-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-8" value="HandlePointCloud2Message" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="1169" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-9" target="kzg4WtCf1WpvJ3rMo1ig-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-9" value="HandleMultiEchoLaserScanMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="1000" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-10" target="kzg4WtCf1WpvJ3rMo1ig-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-10" value="HandleLaserScanMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="820" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-11" target="kzg4WtCf1WpvJ3rMo1ig-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-11" value="HandleImuMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="653.13" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-12" target="kzg4WtCf1WpvJ3rMo1ig-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-12" value="HandleLandmarkMessage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="480" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-13" target="kzg4WtCf1WpvJ3rMo1ig-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-13" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;HandleNavSatFixMessage&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="313.13" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-14" target="kzg4WtCf1WpvJ3rMo1ig-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;HandleOdometryMessage&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="150" width="722" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-24" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-24" value="1、位姿推测器&lt;br&gt;2、sensor_bridge_ptr" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="116.87" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-72" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-26" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-26" value="1、通过map_builder_bridge的sensor_bridge传入slam" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="280" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-28" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-28" value="1、通过map_builder_bridge的sensor_bridge传入slam" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="446.88" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-30" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-30" value="1、位姿推测器&lt;br&gt;2、sensor_bridge_ptr" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="620" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-32" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-32" value="1、通过map_builder_bridge的sensor_bridge传入slam" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="786.88" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-34" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-34" value="1、通过map_builder_bridge的sensor_bridge传入slam" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="966.88" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kzg4WtCf1WpvJ3rMo1ig-36" target="moiocsShgAmM6kFT7V4P-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzg4WtCf1WpvJ3rMo1ig-36" value="1、通过map_builder_bridge的sensor_bridge传入slam" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4700" y="1135.88" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-3" target="moiocsShgAmM6kFT7V4P-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-3" target="moiocsShgAmM6kFT7V4P-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-3" target="moiocsShgAmM6kFT7V4P-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-3" target="moiocsShgAmM6kFT7V4P-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;node_main.cc&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="390" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-4" target="eDFORQu90avfI0AdCX1T-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-4" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;CreateMapBuilder&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="810" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-5" target="eDFORQu90avfI0AdCX1T-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;TrajectoryOptions&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="598.13" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;NodeOptions&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="390" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-7" target="eDFORQu90avfI0AdCX1T-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-7" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;tf2_ros::Buffer&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="165" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-17" target="moiocsShgAmM6kFT7V4P-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-17" target="moiocsShgAmM6kFT7V4P-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-17" target="moiocsShgAmM6kFT7V4P-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-17" target="moiocsShgAmM6kFT7V4P-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-17" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Node::Node中，将map_buuilder_传递给&lt;br&gt;map_bnuilder_bridge_初始化其中的map_builder_&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1990" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-19" target="moiocsShgAmM6kFT7V4P-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-19" target="moiocsShgAmM6kFT7V4P-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-19" target="moiocsShgAmM6kFT7V4P-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-19" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilderBridge::AddTrajectory&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="2300" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-21" target="moiocsShgAmM6kFT7V4P-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-21" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilder::AddTrajectoryBuilder&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="2300" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilder::GetTrajectoryBuilder&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="2560" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-28" target="moiocsShgAmM6kFT7V4P-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilderBridge::FinishTrajectory&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="2820" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilder::FinishTrajectory&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="2820" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-32" target="moiocsShgAmM6kFT7V4P-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-32" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilderBridge::&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;RunFinalOptimization&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="3120" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-33" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilder::pose_graph&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="3120" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-35" target="moiocsShgAmM6kFT7V4P-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-35" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilderBridge::&lt;/font&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;RunFinalOptimization&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="3420" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-36" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;MapBuilder::pose_graph&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="3420" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-40" target="kzg4WtCf1WpvJ3rMo1ig-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-40" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;构建sensor_bridges_&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3146" y="1370" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-43" target="moiocsShgAmM6kFT7V4P-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-43" target="LSBadtMvyvlcJQjaQofP-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-43" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 24px; background-color: initial;&quot;&gt;1、期望sensor_id&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、轨迹选项&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、local_slam_result_callback&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;构建local_trajectory_builder(slam前端初始化)并和pose_graph一起放到collatedTrajectoryBuilder（就是将slam前端与后端打包到一起构成slam）&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;判断是否为纯定位模式，判断是否给了初始位姿&lt;/div&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2490" y="2200" width="1220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-47" target="moiocsShgAmM6kFT7V4P-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-47" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;CollatedTrajectoryBuilder&lt;br&gt;除了拼接前后端，通过sensor_collator&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="2300" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="moiocsShgAmM6kFT7V4P-54" target="moiocsShgAmM6kFT7V4P-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-54" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;trajectory_builder_&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;-&amp;gt;AddSensorData&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5723" y="620" width="480" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-73" target="moiocsShgAmM6kFT7V4P-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="6755" y="1580" />
+              <mxPoint x="4105" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-73" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;CollatedTrajectoryBuilder::AddData&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6390" y="620" width="730" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="moiocsShgAmM6kFT7V4P-78" target="moiocsShgAmM6kFT7V4P-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-78" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;Collator::AddSensorData&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4750" y="2294.38" width="730" height="151.25" as="geometry" />
+        </mxCell>
+        <mxCell id="moiocsShgAmM6kFT7V4P-80" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;将数据放入OrderedMultiQueue queue_将数据Add并push，判断是否Dispatch.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;调用HandleCollatedSensorData,将数据通过Dispatchable::AddtoTrajectoryBuilder&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 34px; line-height: 19px;&quot;&gt;将数据传入SLAM&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=36;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5740" y="2246.1" width="1497" height="247.81" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LSBadtMvyvlcJQjaQofP-1" target="LSBadtMvyvlcJQjaQofP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;LocalTrajectoryBuilder2D&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2875" y="3130" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LSBadtMvyvlcJQjaQofP-3" target="LSBadtMvyvlcJQjaQofP-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LSBadtMvyvlcJQjaQofP-3" target="5J3mYigE6fZJWAp0pi8R-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3855" y="3720" />
+              <mxPoint x="593" y="3720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AddRangeData&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3630" y="3130" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-5" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;1、多个雷达点云数据的时间同步，点云坐标相对于tracking_frame。range_data_collator.AddRangeData&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;horizontal=1;" parent="1" vertex="1">
+          <mxGeometry x="4830" y="2690" width="890" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-7" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;2、给每一个预测位姿，T_local_tracking，&lt;/font&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;extrapolator_&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace;&quot;&gt;ExtrapolatePose&lt;/span&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;code style=&quot;position: unset; font-size: 34px;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=34;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4830" y="2920" width="890" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LSBadtMvyvlcJQjaQofP-8" target="LSBadtMvyvlcJQjaQofP-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-8" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;3、点云去畸变&lt;br style=&quot;font-size: 34px;&quot;&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;code style=&quot;position: unset; font-size: 34px;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=34;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4830" y="3150" width="890" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LSBadtMvyvlcJQjaQofP-11" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;// 将点云的origins坐标转到 local slam 坐标系下&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;const Eigen::Vector3f origin_in_local =&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;range_data_poses[i] *&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;synchronized_data.origins.at(synchronized_data.ranges[i].origin_index);&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;// Step: 3 运动畸变的去除, 将相对于tracking_frame的hit坐标 转成 local坐标系下的坐标&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;sensor::RangefinderPoint hit_in_local =&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;range_data_poses[i] * sensor::ToRangefinderPoint(hit);&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;// 计算这个点的距离, 这里用的是去畸变之后的点的距离&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;const Eigen::Vector3f delta = hit_in_local.position - origin_in_local;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 35px;&quot;&gt;const float range = delta.norm();&lt;/div&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;code style=&quot;position: unset; font-size: 34px;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot; style=&quot;font-size: 34px;&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=34;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5950" y="2972.5" width="2060" height="495" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J3mYigE6fZJWAp0pi8R-2" target="5J3mYigE6fZJWAp0pi8R-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J3mYigE6fZJWAp0pi8R-2" target="be088XQNp_RdPQ-ZK8I9-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;位姿推测器&lt;br&gt;在local_trajectory_builder_2d中直接调用&lt;br&gt;pose_extrapolator的构造函数&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="368" y="4740" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-4" target="5J3mYigE6fZJWAp0pi8R-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J3mYigE6fZJWAp0pi8R-4" target="be088XQNp_RdPQ-ZK8I9-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="5490" />
+              <mxPoint x="2700" y="5490" />
+              <mxPoint x="2700" y="5850" />
+              <mxPoint x="1205" y="5850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;LocalTrajectoryBuilder2D::InitializeExtrapolator&lt;br&gt;extrapolator_&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="948" y="4740" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-6" target="5J3mYigE6fZJWAp0pi8R-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-6" target="5J3mYigE6fZJWAp0pi8R-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-6" target="5J3mYigE6fZJWAp0pi8R-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-6" target="5J3mYigE6fZJWAp0pi8R-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-6" target="5J3mYigE6fZJWAp0pi8R-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;extrapolator_-&amp;gt;AddPose(time,transform::Rigid3d::Identity())&lt;br&gt;初始化时候调用，位姿匹配之后调用&lt;br&gt;&lt;br&gt;判断imu_tracker_是否被初始化，没有被初始化就初始化。找到最小时间设置为imu_tracker_的最小时间。&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="4660" width="530" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-8" target="5J3mYigE6fZJWAp0pi8R-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;UpdateVelocitiesFromPoses&lt;br&gt;根据加入的pose计算线速度与角速度&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2478" y="4340" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5J3mYigE6fZJWAp0pi8R-10" target="gec2TczS99m0FXxNlZTa-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-10" target="gec2TczS99m0FXxNlZTa-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-10" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AdvanceImuTracker&lt;br&gt;更新imu_tracker_状态，并将imu_tracker的状态预测到time时刻&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2478" y="4560" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-11" target="be088XQNp_RdPQ-ZK8I9-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5J3mYigE6fZJWAp0pi8R-11" target="be088XQNp_RdPQ-ZK8I9-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;TrimImuData&lt;br&gt;TrimOdometryData&lt;br&gt;将历史时刻的数据去除&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2478" y="4780" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-12" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;odometry_imu_tracker_ 只在添加位姿时更新, 用于根据里程计数据计算线速度时姿态的预测&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2478" y="5000" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-13" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;extrapolation_imu_tracker_ 只在添加位姿时更新, 用于位姿预测时的姿态预测&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2478" y="5220" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5J3mYigE6fZJWAp0pi8R-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;timed_pose_queue_的size最少为2，拿出timed_pose_queue_.back()作为newest_timed_pose，拿出timed_pose_queue_.front()作为oldest_timed_pose，因此time_delta = newest_time - oldest_time，如果时间差很小就不计算了。然后通过位置差求速度，通过姿态差求角速度。&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3300" y="4200" width="742" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-1" target="gec2TczS99m0FXxNlZTa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-1" target="gec2TczS99m0FXxNlZTa-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-1" target="gec2TczS99m0FXxNlZTa-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;没有imu数据(imu_data_.empty())，或者在time时刻之前没有imu_data_。ImuTracker的更新使用姿态和假重力产生的角速度来帮助2D稳定。&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3300" y="4490" width="742" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gec2TczS99m0FXxNlZTa-3" target="gec2TczS99m0FXxNlZTa-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;imu_tracker-&amp;gt;Advance(time)预测time时刻的姿态与重力方向&lt;br&gt;通过当前时刻的时间减去上一时刻的时间delta_t = time - time_，使用上一时刻的角速度乘以delta_t从而得到姿态差，使用上一时刻的姿态乘以姿态差得到当前时刻的预测姿态：&lt;br&gt;orientation_ = (orientation_ * rotation).normalized()；&lt;br&gt;gravity_vector_ = rotation.conjugate()*gravity_vector_;&lt;br&gt;rotation: R_old_new&lt;br&gt;rotation.conjugaye(): R_new_old&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4500" y="4040" width="742" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-5" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;imu_tracker-&amp;gt;AddImuLinearAccelerationObservation使用假的重力数据对加速度的测量值进行更新&lt;br&gt;alpha = 1-e^(-delta_t/10)&lt;br&gt;将之前的线加速度与当前的线加速度进行融合&lt;br&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;gravity_vector_ =&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;      (1. - alpha) * gravity_vector_ + alpha *&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;imu_linear_acceleration;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;求得线加速度的值与由上一时刻姿态求出的线性加速度间的&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;旋转量。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;使用相对旋转量矫正姿态。&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4500" y="4357" width="742" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ImuTracker:&lt;br&gt;const double imu_gravity_time_constant_;&lt;br&gt;common::Time time_;上一次预测位姿的时间戳&lt;br&gt;common::Time last_linear_acceleration_time_;&lt;br&gt;Eigen::Quaterniond orientation_;&lt;br&gt;Eigen::Vector3d gravity_vector_;&lt;br&gt;Eigen::Vector3d imu_angular_velocity_;上一时刻的角速度&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4500" y="3650" width="742" height="244" as="geometry" />
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;IMU数据跟不上则在有满足条件的odometry_data_时使用odometry_data_，没有时使用pose进行计算&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4500" y="4800" width="742" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-13" target="be088XQNp_RdPQ-ZK8I9-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3680" y="4858" />
+              <mxPoint x="3680" y="5062" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-13" target="be088XQNp_RdPQ-ZK8I9-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3680" y="4858" />
+              <mxPoint x="3680" y="5282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gec2TczS99m0FXxNlZTa-13" target="be088XQNp_RdPQ-ZK8I9-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3680" y="4858" />
+              <mxPoint x="3680" y="5502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gec2TczS99m0FXxNlZTa-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;不为空时候的处理&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3300" y="4796" width="270" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;1、imu_tracker的时间比imu数据队列中的第一个数据的时间早，就将imu_tracker更新到imu数据队列中第一个数据的时间&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="5000" width="742" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;2、在imu数据队列中找到第一个时间上大于等于imu_tracker-&amp;gt;time()&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="5220" width="742" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-6" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;3、更新imu_tracker_&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3880" y="5440" width="742" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;TrimImuData&lt;br&gt;保持imu_data_中第二个数据时间大于最后一个位姿时间&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="5040" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-13" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;TrimOdometryData、&lt;br&gt;保持odometry_data_中第二个数据时间大于最后一个位姿时间&lt;br&gt;&lt;/font&gt;&lt;pre class=&quot;set-code-show prettyprint&quot; data-index=&quot;5&quot;&gt;&lt;code style=&quot;position: unset;&quot; class=&quot;prism language-cpp has-numbering&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="5240" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="be088XQNp_RdPQ-ZK8I9-15" target="be088XQNp_RdPQ-ZK8I9-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-15" target="be088XQNp_RdPQ-ZK8I9-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-15" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;LocalTrajectoryBuilder2D::&lt;br style=&quot;font-size: 26px;&quot;&gt;AddOdometryData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="368" y="5610" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-16" target="be088XQNp_RdPQ-ZK8I9-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-16" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;extrapolator_-&amp;gt;AddOdometryData(odometry_data)&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="988" y="5610" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-19" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;1、odometry_data_中至少有2个数据；&lt;br&gt;2、取最新和最老的两个里程数据，计算时差；&lt;br&gt;3、计算两个位姿之间的位姿差T_new_old;&lt;br&gt;4、得到角速度；&lt;br&gt;5、得到线速度（tracking frame）；&lt;br&gt;6、ExtrapolateRotation得到R_old_new，然后得到最新的T，timed_pose_queue_.back().pose.rotation()*R_old_new;&lt;br&gt;7、将速度转到local frame下。&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="5542.5" width="850" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="be088XQNp_RdPQ-ZK8I9-21" target="be088XQNp_RdPQ-ZK8I9-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="be088XQNp_RdPQ-ZK8I9-21" target="be088XQNp_RdPQ-ZK8I9-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-21" target="be088XQNp_RdPQ-ZK8I9-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-21" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;LocalTrajectoryBuilder2D::&lt;br style=&quot;font-size: 26px;&quot;&gt;AddImuData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="368" y="6080" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-24" target="be088XQNp_RdPQ-ZK8I9-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="5960" />
+              <mxPoint x="1580" y="5960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-24" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;InitializeExtrapolator(imu_data.time)&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="980" y="5890" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-26" target="be088XQNp_RdPQ-ZK8I9-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-26" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;extrapolator_-&amp;gt;AddImuData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="980" y="6270" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-28" target="be088XQNp_RdPQ-ZK8I9-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-28" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;初始化位姿推测器&lt;br&gt;extrapolator_&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="5890" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-30" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;extrapolator_-&amp;gt;addPose(time,transform::Rigid3d::Identity()))&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2310" y="5890" width="710" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-34" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;TrimImuData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="6270" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-36" target="be088XQNp_RdPQ-ZK8I9-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-36" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;LocalTrajectoryBuilder2D::&lt;br style=&quot;font-size: 26px;&quot;&gt;AddRangeData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="368" y="6700" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="be088XQNp_RdPQ-ZK8I9-38" target="be088XQNp_RdPQ-ZK8I9-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="be088XQNp_RdPQ-ZK8I9-38" target="be088XQNp_RdPQ-ZK8I9-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-38" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;extrapolator_-&amp;gt;ExtrapolatePose&lt;br&gt;预测得到time时刻tracking_frame在local坐标系下的位姿&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="980" y="6700" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-40" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ExtrapolateTranslation&lt;br&gt;从里程计速度得到平移量预测，或者通过pose计算出来的线速度&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="6540" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="be088XQNp_RdPQ-ZK8I9-41" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ExtrapolateRotation&lt;br&gt;得到相对位姿T_old_new&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="6810" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-1" target="DgWbrvIn4NeE_rbE6BS0-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-1" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;LocalTrajectoryBuilder2D::&lt;br style=&quot;font-size: 26px;&quot;&gt;InsertIntoSubMap&lt;br&gt;将处理后的雷达数据写入submap&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="170" y="7200" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-2" target="DgWbrvIn4NeE_rbE6BS0-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-2" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;active_submaps_&lt;br&gt;ActiveSubmaps2D::InsertRangeData&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="810" y="7200" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-4" target="DgWbrvIn4NeE_rbE6BS0-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="9386.666666666666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-4" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;class ActiveSubmaps2D&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="810" y="7960" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-6" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;CreateRangeDataInserter()&lt;br&gt;创建地图写入器，概率栅格写入器，或者tsdf地图写入器&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="7400" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-9" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;submaps返回指向Submap2D的shared_ptr指针的vector&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="7630" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-11" target="DgWbrvIn4NeE_rbE6BS0-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-11" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;InsertRangeData&lt;br&gt;将点云数据写入submap&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="7860" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-13" target="DgWbrvIn4NeE_rbE6BS0-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="8210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2615" y="8160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-13" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;1、如果submaps_为空调用AddSubmap创建一个子图；&lt;br&gt;2、如果第二个submaps_中的插入的数据等于num_range_data就调用AddSubmap创建子图，并在AddSubmap中第一个子图的指针;&lt;br&gt;3、如果第一个子图插入的数据节点数为2*num_range_data就将第一个子图设置为finish;&lt;br&gt;4、将一帧雷达数据同时写入两个子图.&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="7817.5" width="770" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-15" target="DgWbrvIn4NeE_rbE6BS0-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-15" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;AddSubmap新增一个子图，根据子图个数判断是否删掉第一个子图.&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="8090" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-18" target="DgWbrvIn4NeE_rbE6BS0-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-18" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;CreateGrid&lt;br&gt;以当前雷达原点为地图原点创建地图&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="8320" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-21" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;栅格地图，或者tsdf地图&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="8320" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-23" target="DgWbrvIn4NeE_rbE6BS0-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-23" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;数据转换表&lt;br&gt;class ValueConversionTables&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1618" y="8550" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-25" target="DgWbrvIn4NeE_rbE6BS0-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-25" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;GetConversionTable获取转换表&lt;br&gt;unknown_result：0.9未知时的值&lt;br&gt;lower_bound 0.1最小correspondence_cost&lt;br&gt;upper_bound 0.9最大correspondence_cost&lt;br&gt;如果没有对应的key就创建转换表&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="8530" width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-27" target="DgWbrvIn4NeE_rbE6BS0-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-27" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;PrecomputeValueToBoundedFloat&lt;br&gt;新建转换表std::vector&amp;lt;float&amp;gt; 的size为65536&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2930" y="8550" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-30" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;SlowValueToBoundedFloat将[0,1~32767]映射到[0.9,0.1~0.9]&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="3550" y="8550" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DgWbrvIn4NeE_rbE6BS0-33" target="T7k7tgHNS-PRRFPV6nP--8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgWbrvIn4NeE_rbE6BS0-33" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;std::vector&amp;lt;std::shared_ptr&amp;lt;Submap2D&amp;gt;&amp;gt;&lt;br&gt;submaps_&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="750" y="9440" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--1" value="class GridInterface" style="html=1;whiteSpace=wrap;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="8360" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" parent="1" source="T7k7tgHNS-PRRFPV6nP--3" target="T7k7tgHNS-PRRFPV6nP--1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--3" value="class Grid2D" style="html=1;whiteSpace=wrap;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="8760" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" parent="1" source="T7k7tgHNS-PRRFPV6nP--4" target="T7k7tgHNS-PRRFPV6nP--3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--4" value="class ProbabilityGrid" style="html=1;whiteSpace=wrap;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="9140" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7k7tgHNS-PRRFPV6nP--8" target="T7k7tgHNS-PRRFPV6nP--10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--8" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;AddSubMap在这里构建Submap2D&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="1654" y="9440" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--10" target="T7k7tgHNS-PRRFPV6nP--12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--10" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;通过CreateGrid创建Grid2D&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2481" y="9440" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7k7tgHNS-PRRFPV6nP--12" target="T7k7tgHNS-PRRFPV6nP--14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--12" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;其实也就是父类指向ProbabilityGrid&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="3320" y="9440" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="T7k7tgHNS-PRRFPV6nP--16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4385" y="9700" />
+              <mxPoint x="1035" y="9700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="9Rz3gxkExozb_l10aLDw-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="OjsdutbpAqxkSpN-8i7J-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="OjsdutbpAqxkSpN-8i7J-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="OjsdutbpAqxkSpN-8i7J-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--14" target="OjsdutbpAqxkSpN-8i7J-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--14" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;通过MapLimits与conersion_tables_构造&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4100" y="9440" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T7k7tgHNS-PRRFPV6nP--16" target="T7k7tgHNS-PRRFPV6nP--28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--16" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;class MapLimits&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;cartographer的地图坐标系: 坐标系右下角为原点, 向上为x正方向, 向左为y正方向&lt;span style=&quot;background-color: initial;&quot;&gt;角度正方向以x轴正向为0度, 逆时针为正;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;cartographer地图的像素坐标系: 左上角为原点, 向右为x正方向, 向下为y正方向;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="750" y="10650" width="1180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--18" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;resolution 返回分辨率&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="9867" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--20" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;max:返回左上角坐标，左上角坐标为整个坐标系最大值&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="10130" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--22" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;cell_limits：返回x方向与y方向的格子数&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="10390" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--24" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;GetCellIndex：计算物理坐标点的像素索引&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="10650" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--26" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;GetCellCenter：根据像素索引计算物理坐标&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="10910" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--28" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Contains：判断给定像素索引是否在栅格地图内部&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="11170" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4100" y="10480" as="sourcePoint" />
+            <mxPoint x="4370" y="10170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4370" y="10480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4380" y="10170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--32" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4090" y="10491" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3940" y="10320" as="sourcePoint" />
+            <mxPoint x="4250" y="10020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3940" y="10020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4180" y="9970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--36" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3860" y="10290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--37" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;（0，0）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3840" y="9990" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7k7tgHNS-PRRFPV6nP--38" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;（0，0）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="4365" y="10480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-1" target="9Rz3gxkExozb_l10aLDw-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-1" target="9Rz3gxkExozb_l10aLDw-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-1" target="9Rz3gxkExozb_l10aLDw-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-1" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;SetProbability将索引处单元格的概率设置为给定的概率，当且仅当单元格之前处于未知状态时&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="8590" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-3" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;std::vector&amp;lt;uint16&amp;gt;* mutable_correspondence_cost_cells()&lt;br&gt;返回可以修改的地图数组的指针&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="8183" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-5" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ToFlatIndex二维像素坐标转为一维索引坐标&lt;br&gt;limits_.cell_limits().num_x_cells*cell_index.y()+&lt;br&gt;cell_index.x()&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="8400" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9Rz3gxkExozb_l10aLDw-7" target="9Rz3gxkExozb_l10aLDw-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-7" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;probability_value&lt;/font&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="13080" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-8" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;BoundedFloatToValue为了避免浮点运算，将[0~0.9]的浮点数转成[1~32767]之间的值lower_bound = 0.1，upper_bound = 0.9&lt;/font&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="11950" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-10" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;Odds通过概率计算odd值，占用概率:odd = p/(1-p)&lt;/font&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="12230" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-12" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;ProbabilityFromOdds通过odd计算概率 p = odd / ( 1 + odd )&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="12500" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-14" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;ProbabilityToCorrespondenceCost : 1 - probability&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="12770" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-16" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;CorrespondenceCostToProbability : 1 - probability_cost&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="13080" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-18" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;SlowValueToBoundedFloat：将[0,1~32767]映射成[0.9,0.1~0.9]&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="13390" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-20" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;PrecomputeValueToBoundedFloat新建转换表&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="13700" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-22" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;ComputeLookupTableToApplyOdds将栅格是未知状态与odds状态下，将更新时的所有可能结果预先计算出来&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="13980" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-24" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 35px;&quot;&gt;ComputeLookupTableToApplyCorrespondenceCostOdds将栅格是未知状态与odds状态下，将更新时的所有可能结果预先计算出来&lt;/span&gt;&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="640" y="14250" width="1100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9Rz3gxkExozb_l10aLDw-26" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;为栅格赋值，并更新bounding_box&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="8620" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-1" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ApplyLookupTable：使用查表对指定的栅格值进行更新&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="8850" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-3" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;GetGridType&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="9110" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-5" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;GetProbability：获取索引处单元格的占用率&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="9370" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OjsdutbpAqxkSpN-8i7J-7" target="OjsdutbpAqxkSpN-8i7J-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OjsdutbpAqxkSpN-8i7J-7" target="OjsdutbpAqxkSpN-8i7J-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OjsdutbpAqxkSpN-8i7J-7" target="OjsdutbpAqxkSpN-8i7J-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OjsdutbpAqxkSpN-8i7J-7" target="OjsdutbpAqxkSpN-8i7J-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-7" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ComputeCroppedGrid根据bounding_box对栅格地图进行裁减到正好包含点云&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="4962" y="9630" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-9" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ComputeCroppedLimits根据bounding_box对栅格地图进行裁减，根据known_cell_box_更新limits&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="9212" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-11" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;重新计算最大值坐标:&lt;br&gt;max = limits().max() - resolution * Eigen::Vector2d(offset.y(),offset.x())&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="9470" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-13" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;重新定义栅格地图的大小&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="9727" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OjsdutbpAqxkSpN-8i7J-15" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;给新栅格地图赋值&lt;br&gt;xy_index + offset 这里重载了operator+，获取(xy_index+offset)的概率值，然后对概率地图进行设置&lt;br style=&quot;font-size: 26px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=26;" parent="1" vertex="1">
+          <mxGeometry x="5789" y="9990" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-1" target="n3qVRqKhg9dB0BsQ1vkh-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-1" target="n3qVRqKhg9dB0BsQ1vkh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-1" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;LocalTrajectoryBuilder2D::ScanMatch&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="8762" y="2506.09" width="958" height="223.91" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-2" target="n3qVRqKhg9dB0BsQ1vkh-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-2" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;暴力匹配real_time_correlative_scan_matcher_&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;class RealTimeCorrelativeScanMatcher2D&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="10290" y="1710.0000000000002" width="958" height="223.91" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-3" target="n3qVRqKhg9dB0BsQ1vkh-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-3" value="&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;ceres匹配,ceres_scan_matcher_&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 37px; line-height: 19px;&quot;&gt;class CeresScanMatcher2D&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="10290" y="4320" width="958" height="223.91" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-6" target="n3qVRqKhg9dB0BsQ1vkh-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-6" value="Match相关性扫描匹配" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="11540" y="1701.96" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-8" value="1、将点云旋转到预测方向&lt;br&gt;使用位姿推测器的姿态作为初始姿态&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="630" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-10" target="n3qVRqKhg9dB0BsQ1vkh-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-10" target="n3qVRqKhg9dB0BsQ1vkh-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-10" target="n3qVRqKhg9dB0BsQ1vkh-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-10" target="n3qVRqKhg9dB0BsQ1vkh-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-10" target="n3qVRqKhg9dB0BsQ1vkh-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-10" value="Struct SearchParameters" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4750" y="12490" width="810" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-11" value="int num_angular_perturbations //个数&lt;br&gt;double angular_perturbation_step_size //角度分辨率&lt;br&gt;double resolution&amp;nbsp;&lt;br&gt;int num_scans //旋转后的点云集合的个数&lt;br&gt;std::vector&amp;lt;LinearBounds&amp;gt; linear_bounds //per rotated scans&lt;br&gt;&lt;br&gt;struct LinearBounds{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int min_x;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int max_x;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int min_y;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int max_y;&lt;br&gt;};" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="11650" width="1040" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7450" y="11900.000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-13" value="construct SearchParameters&lt;br&gt;范围除以分辨率得到角度个数num_angular_perturbations&lt;br&gt;num_scans = 2*num_angular_perturbations + 1;&lt;br&gt;xy方向搜索的范围，单位为所少个栅格&lt;br&gt;num_linear_perturbations = std::ceil(linear_search_window / resolution)&lt;br&gt;linear_bounds的作用是确定每一个点云的最大最小边界" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="12490" width="1190" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-15" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7447" y="11900" as="sourcePoint" />
+            <mxPoint x="8017" y="11770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-16" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7447" y="11900" as="sourcePoint" />
+            <mxPoint x="8017" y="12030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8017" y="12040" as="sourcePoint" />
+            <mxPoint x="8007" y="11770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-19" value="max_range" style="rounded=0;whiteSpace=wrap;html=1;rotation=-15;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="7547" y="11720" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-20" value="max_range" style="rounded=0;whiteSpace=wrap;html=1;rotation=10;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="7547" y="12010" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-22" value="resolution" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="7907" y="11870" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-24" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=9;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7577" y="11929.57" as="sourcePoint" />
+            <mxPoint x="7597" y="11870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-25" value="theta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=34;" parent="1" vertex="1">
+          <mxGeometry x="7607" y="11880" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-27" value="ShrinkToFit计算每一帧点云，在保证最后一个点能在地图范围内时最大的移动&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="13210" width="1190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-29" value="GenerateRotatedScans生成按照不同角度旋转后的点云集合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="13680" width="1190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-31" value="DiscretizeScans将旋转后的点云集合按照预测出的平移量进行平移，获取平移后的点在地图中的索引" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="6020" y="14150" width="1190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-33" value="2、生成按照不同角度旋转后的点云集合" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="950" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-35" value="3、将旋转后的点云集合按照预测出的平移量进行平移，获取平移后的点在地图中的索引&lt;br&gt;存在std::vector&amp;lt;DiscreteScan2D&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="1270" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-37" target="n3qVRqKhg9dB0BsQ1vkh-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-37" target="n3qVRqKhg9dB0BsQ1vkh-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-37" value="4、生成所有的候选解&lt;br&gt;GenerateExhaustiveSearchCandidates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="1701.96" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-39" value="1、计算候选解个数&lt;br&gt;num_candidates += num_linear_x_candidates * num_linear_y_candidates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="13950" y="1270" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-41" value="2、生成候选解，候选解是由像素坐标的偏差组成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="13950" y="1701.96" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-43" target="n3qVRqKhg9dB0BsQ1vkh-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-43" value="5、计算所有候选解的加权得分&lt;br&gt;ScoreCandidates" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="2098" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-45" target="n3qVRqKhg9dB0BsQ1vkh-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-45" target="n3qVRqKhg9dB0BsQ1vkh-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-45" value="ComputeCandidateScore&lt;br&gt;计算点云在指定像素坐标位置下与ProbabilityGrid地图匹配的得分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="13950" y="2098" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-47" value="对每个点都加上像素坐标的offset，相当于对点云进行平移" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="15180" y="1680" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-49" value="获取占用的概率&lt;br&gt;以概率为得分&lt;br&gt;candidate_score += probability&lt;br&gt;计算平均得分" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="15180" y="2098" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-51" value="6、获取最优解" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="2493.91" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-53" value="7、将计算出的偏差量加上原始位姿获得矫正的位姿" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="2890" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-55" target="n3qVRqKhg9dB0BsQ1vkh-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-55" target="n3qVRqKhg9dB0BsQ1vkh-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n3qVRqKhg9dB0BsQ1vkh-55" target="n3qVRqKhg9dB0BsQ1vkh-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-55" value="Match的ceres匹配" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="11630" y="4311.96" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-58" value="地图残差" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="3760" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-59" value="平移残差" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="4311.96" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n3qVRqKhg9dB0BsQ1vkh-60" value="旋转残差" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="12780" y="4910" width="740" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-1" target="itkB7KG6NvEi2Hv-wY59-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-1" value="class PoseGraph2D&lt;br&gt;后端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="9820" y="8639" width="570" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="itkB7KG6NvEi2Hv-wY59-2" target="itkB7KG6NvEi2Hv-wY59-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-2" target="itkB7KG6NvEi2Hv-wY59-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-2" value="AddNode&lt;br&gt;增加节点，并计算跟这个节点相关的约束&lt;br&gt;constant_data :节点信息&lt;br&gt;trajectory_id：轨迹id&lt;br&gt;insertion_submaps：子图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="10647" y="8599.5" width="570" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-12" value="// 节点在global坐标系下的位姿，与前端的结果&lt;br&gt;struct TrajectoryNode{&lt;br&gt;// 前端匹配所用的数据与计算出来的local坐标系下的位姿&lt;br&gt;struct Data{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;common::Time time;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Eigen::Quaterniond gravity_alignment;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sensor::PointCloud filtered_gravity_aligned_point_cloud;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// local slam frame&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;transform::Rigid3d local_pose;&lt;br&gt;};&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;common::Time time() const { return constant_data-&amp;gt;time;}&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 不会被后端优化修改的数据，所以是constant&lt;br/&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;std::shared_ptr&amp;lt;const Data&amp;gt; constant_data;&#x9;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 后端优化后，global_pose会发生改变&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;transform::Rigid3d global_pose;&lt;br&gt;};" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="10411.5" y="9020" width="1041" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-15" target="itkB7KG6NvEi2Hv-wY59-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="itkB7KG6NvEi2Hv-wY59-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="12270" y="7920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-15" target="itkB7KG6NvEi2Hv-wY59-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-15" value="GetLocalToGlobalTransform里面调用&lt;br&gt;ComputeLocalToGlobalTransform：T_global_local = T_g_sub * T_L_sub.inv();&lt;br&gt;最后：&lt;br&gt;T_global_node = T_global_local*T_local_node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="11875" y="8613.38" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-17" value="struct PoseGraphData{&lt;br&gt;// submap_data_ 里面，包含了所有的submap&lt;br&gt;MapById&amp;lt;SubmapId,InternalSubmapData&amp;gt; submap_data;&lt;br&gt;global_submap_poses_2d; submap在global坐标系下的坐标&lt;br&gt;&lt;br&gt;&lt;br&gt;};" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="11749.5" y="9020" width="1041" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11898" y="7980" as="sourcePoint" />
+            <mxPoint x="11588" y="7670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11588" y="7980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12418" y="7390" as="sourcePoint" />
+            <mxPoint x="12108" y="7080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="12108" y="7390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13118" y="7590" as="sourcePoint" />
+            <mxPoint x="12808" y="7280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="12808" y="7590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11598" y="7970" as="sourcePoint" />
+            <mxPoint x="12818" y="7590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12108" y="7390" as="sourcePoint" />
+            <mxPoint x="12798" y="7590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-28" value="local" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=54;" parent="1" vertex="1">
+          <mxGeometry x="11938" y="7400" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-31" value="global" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=54;" parent="1" vertex="1">
+          <mxGeometry x="11458" y="8000" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-32" value="submap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=54;" parent="1" vertex="1">
+          <mxGeometry x="12758" y="7630" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-34" target="itkB7KG6NvEi2Hv-wY59-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-34" target="itkB7KG6NvEi2Hv-wY59-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-34" target="itkB7KG6NvEi2Hv-wY59-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-34" target="itkB7KG6NvEi2Hv-wY59-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-34" target="itkB7KG6NvEi2Hv-wY59-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13933" y="9670" />
+              <mxPoint x="15868" y="9670" />
+              <mxPoint x="15868" y="8739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-34" value="AppendNode:向节点列表中添加一个新的节点，并保存新生成的submap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="13538" y="8613.369999999999" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-36" value="AddTrajectoryIfNeeded：&lt;br&gt;如果轨迹不存在则将轨迹添加到连接状态里并添加采样器" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="14782" y="7958.749999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-38" value="CanAddWorkItemModifying:&lt;br&gt;根据轨迹状态判断是否可以添加任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="14782" y="8319.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-40" value="Apped向节点列表中添加新的节点&lt;br&gt;trajectory_id:轨迹id&lt;br&gt;TrajectoryNode{&lt;br&gt;constant_data:&lt;br&gt;optimized_pose：T_global_node&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="14788" y="8613.37" width="790" height="336.63" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-42" value="如果轨迹刚开始，或者insertion_submaps.back()是第一次看到，就添加新子图，也就是insertion_submaps.back()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="14782" y="9019.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-44" target="itkB7KG6NvEi2Hv-wY59-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-44" value="AddWorkItem把计算约束的工作放入workitem中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="16288" y="8613.369999999999" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="itkB7KG6NvEi2Hv-wY59-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="itkB7KG6NvEi2Hv-wY59-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="gSQDL04jMUCVkcgbrxVI-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="u0pxCPREspS-bCgcxTuo-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="u0pxCPREspS-bCgcxTuo-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="u0pxCPREspS-bCgcxTuo-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-46" target="u0pxCPREspS-bCgcxTuo-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-46" value="ComputeConstraintsForNode&lt;br&gt;保存节点，计算子图内约束，查找回环" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="17578" y="8613.369999999999" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-48" value="保存节点与计算子图内约束&lt;br&gt;1、先根据节点id（node_id）获取节点信息数据;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="7818.749999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-50" target="gSQDL04jMUCVkcgbrxVI-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-50" target="gSQDL04jMUCVkcgbrxVI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-50" target="gSQDL04jMUCVkcgbrxVI-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="itkB7KG6NvEi2Hv-wY59-50" target="gSQDL04jMUCVkcgbrxVI-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="itkB7KG6NvEi2Hv-wY59-50" value="InitializeGlobalSubmapPoses&lt;br&gt;返回指定轨迹id下的正处于活跃状态下的字图的SubmapId（轨迹id，子图序号）&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="8169.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-1" value="1、获取submap_data：其中村的key为SubmapId，values为对应id的Submap在global坐标系下的全局坐标 T_global_submap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="19980" y="7399.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-3" value="2、如果slam刚启动子图的个数为1&lt;br&gt;如果submap_data的size =0，这条轨迹上还没有添加submap的pose，然后判断是否有初始位姿，有初始位姿就将该trajectory_id与其初始位姿的基准轨迹的id关联起来" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="19980" y="7779.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gSQDL04jMUCVkcgbrxVI-5" target="gSQDL04jMUCVkcgbrxVI-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-5" value="3、将submap的global_pose加入到optimization_problem_中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="19980" y="8169.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-7" value="optimization_problem_-&amp;gt;AddSubmap&lt;br&gt;tarjectory_id：轨迹id&lt;br&gt;ComputeLocalToGlobalTransform: T_global_local&lt;br&gt;insertion_submaps[0]-&amp;gt;local_pose(): T_local_submap得到 T_global_local" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="21000" y="8140" width="790" height="311.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-11" value="4、如果不是刚启动&lt;br&gt;如果最后一个submap与insertion_submaps中的第一个submap像等，说明insertion_submaps中第二个子图还没有加入optimization_problem_中&lt;br&gt;T_global_submap1 * T_submap1_local * T_local_submap2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="19980" y="8579" width="790" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gSQDL04jMUCVkcgbrxVI-13" value="获取这两个submap中前一个id&lt;br&gt;计算该Node投影到平面后的位姿，(local_pose_2d) gravity_alignment机器人的姿态T_local_node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="8749.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-1" value="global_pose_2d(T_global_node): global_pose(T_global_submap)*&lt;br&gt;T_local_submap.inverse()*&lt;br&gt;local_pose_2d(T_local_node)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="9100.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-3" value="遍历2个子图，将节点加入子图的节点列表中，&lt;br&gt;计算子图原点与及节点间的约束（子图内约束）&lt;br&gt;T_local_submap.inverse()*T_local_node = T_submap_node" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="9509.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u0pxCPREspS-bCgcxTuo-5" target="u0pxCPREspS-bCgcxTuo-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-5" value="当前节点与所有已经完成的子图进行约束的计算&lt;br&gt;ComputeConstraint(node_id,submap_id)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="9869.999999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u0pxCPREspS-bCgcxTuo-7" target="u0pxCPREspS-bCgcxTuo-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-7" value="当前节点与刚完成的子图进行约束的计算&lt;br&gt;ComputeConstraint(node_id,&lt;br&gt;newly_finished_submap_id)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="18758" y="10239.749999999998" width="790" height="251.25" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u0pxCPREspS-bCgcxTuo-9" target="VlQwgBpsop-KJoC-z_B7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0pxCPREspS-bCgcxTuo-9" value="GetLatestNodeTime(node_id,submap_id)&lt;br&gt;先获取node_id节点的时间，&lt;br&gt;获取sumap_id的submap数据&lt;br&gt;获取该submap中的std::set&amp;lt;NodeId&amp;gt; node_ids的最后一个数据，然后把时间更新为节点建立时间与submap中最后一个节点时间中较晚的那个" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" parent="1" vertex="1">
+          <mxGeometry x="19848" y="10019.999999999998" width="912" height="360.62" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlQwgBpsop-KJoC-z_B7-1" target="VlQwgBpsop-KJoC-z_B7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-1" value="1、如果节点与子图属于同一轨迹，或者时间小于阈值&lt;br&gt;则只需进行 局部搜索窗口 的约束（对局部子图进行回环检测）&lt;br&gt;maybe_add_local_constraint = true;&lt;br&gt;2、如果节点与子图不属于同一条轨迹 并且 间隔一段时间，同时采样器为true才进行 全局搜索窗口 的约束计算（对整体字图进行回环检测）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20939" y="10019.999999999998" width="912" height="360.62" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlQwgBpsop-KJoC-z_B7-3" target="VlQwgBpsop-KJoC-z_B7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlQwgBpsop-KJoC-z_B7-3" target="VlQwgBpsop-KJoC-z_B7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-3" value="1、建图时只会通过局部搜索进行回环检测&lt;br&gt;MaybeAddConstraint&lt;br&gt;2、定位时候进行全局搜索&lt;br&gt;MaybeAddGlobalConstraint" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="22030" y="10019.689999999999" width="912" height="360.62" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlQwgBpsop-KJoC-z_B7-5" target="VlQwgBpsop-KJoC-z_B7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlQwgBpsop-KJoC-z_B7-5" target="VlQwgBpsop-KJoC-z_B7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-5" value="进行局部搜索窗口的约束计算（对局部子图进行约束）&lt;br&gt;MaybeAddConstraint&lt;br&gt;1、超过范围不进行约束的计算&lt;br&gt;2、根据参数配置添加约束的频率&lt;br&gt;3、在constraints_中添加一个空数据，并将这个数据取出；&lt;br&gt;4、为子图新建一个匹配器&lt;br&gt;DispatchScanMatcherConstruction&lt;br&gt;5、生成计算的约束，并将这个约束放入任务队列" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="23270" y="9366.38" width="1110" height="483.62" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-6" value="进行全局搜索窗口的约束计算（对整体子图进行回环检测）&lt;br&gt;MaybeAddGlobalConstraint&lt;br&gt;1、为子图新建一个匹配器&lt;br&gt;2、生成个全局约束的任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="23270" y="10780" width="1130" height="360.62" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-9" value="DispatchScanMatcherConstruction" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="24830" y="8929" width="610" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VlQwgBpsop-KJoC-z_B7-11" value="ComputeConstraint" style="rounded=0;whiteSpace=wrap;html=1;fontSize=37;align=left;" vertex="1" parent="1">
+          <mxGeometry x="24830" y="10040" width="610" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
